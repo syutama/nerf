@@ -1,0 +1,10 @@
+.app__nerf-image{
+    position: relative;
+    margin-bottom: -0.3rem;
+}
+
+.app__nerf-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

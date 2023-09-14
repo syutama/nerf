@@ -1,0 +1,27 @@
+.loading-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color-darkblue);
+}
+
+.loading-icon {
+  min-width: 10rem;
+  fill: var(--color-gray);
+  animation: pulse 2s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes pulse {
+  0% {
+    fill: var(--color-gray);
+  }
+  50% {
+    fill: var(--color-red);
+  }
+  100% {
+    fill: var(--color-gray);
+  }
+}

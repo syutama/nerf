@@ -1,0 +1,68 @@
+.app__login {
+    padding: 9.9rem 4rem;
+    border: 1px solid rgba(217, 24, 75, 0.2);
+    box-shadow: 0px 30px 50px #212B40;
+    background: var(--color-darkblue);
+}
+
+.app__login-heading {
+    text-align: center;
+}
+
+.headtext__cormorant {
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.app__login-input {
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.app__login-input input {
+    width: 500px;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin-bottom: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-darkblue);
+}
+
+.app__login-input button {
+    width: max-content;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__login-input input {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .app__login-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app__login-input input {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__login {
+        padding: 2rem 0;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__login-heading h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
